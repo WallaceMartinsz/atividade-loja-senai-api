@@ -1,0 +1,15 @@
+<main>
+  <section id="section-login">
+    <form>
+      <div>
+        <h1>Fazer Login</h1>
+        <label for="usuario" class="palavra">User </label>
+        <input name= "usuario" required type="text" [(ngModel)]="usuario">
+        <br>
+        <label for="password" class="palavra">Password </label>
+        <input name="password" type="password" [(ngModel)]="senha">
+      </div>
+      <button (click)="fazerLogin()">Login</button>
+    </form>
+  </section>
+</main>
